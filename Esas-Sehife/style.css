@@ -1,0 +1,1311 @@
+@import url(/Esas-Sehife/reset.css); /* BUTUN BOLUMLERI SIFIRLAYAN CSS AYARLARI */
+@import url(/Esas-Sehife/col.css); /* HEADER BOLMESININ WIDTH VE HEIGHT LERIDI */
+
+/* UMUMI FONT SIZE-I */
+*{
+    font-size: 10px;
+}
+body{
+    overflow-x: hidden !important;
+}
+
+
+/* NAVBAR-LOGO, MENU, SOCIAL ICONS BOLMESI */
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background: #f8f7f7;
+    display: flex;
+    align-content: center;
+    top: 0;
+    left: 0;
+}
+
+/* NAVBAR - FIXED OZELLIYI */
+
+.sabitnavbar{
+    position: fixed;
+    z-index: 555;
+}
+
+/* LOGO BOLMESI */
+#logo{
+    height: 7vh;
+}
+#logo img{
+    width: 20vw;
+    height: 7vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.logo{
+    width: 25vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+/* MENU BOLMESI */
+
+.menu{
+    width: 20vw;
+    margin-left: 6vw;
+    display: flex;
+    align-items: center;
+    list-style: none;
+} 
+
+/* MENU UL ICINDEKI LI ELEMENTLERI */ 
+
+.menu li{
+    display: flex;
+    width: 20vw;
+}
+
+/* MENU LI ICINDEKI A ELEMENTLERI */
+
+.menu a{
+    font-size: 0.8rem;
+    width: 20vw;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR SOCIAL ICONLAR  */
+.icons{
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    margin-right: 7.2%;
+    width: 11%;
+}
+.icons li{
+    list-style: none;
+    margin: 1.5%;
+
+}
+.icons img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*Container-1 HEADER BOLMESI*/
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    height: 30vh;
+    margin-left: 7.5vw;
+    margin-top: 6vh;
+}
+.rightcol{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 15vh;
+}
+.bottomcol{
+    display: flex;
+    width: 40vw;
+    height: 15vh;
+}
+
+/*BIRINCI SOL SEKIL*/
+
+.one-img{
+    width: 40vw;
+    height: 30vh;
+}
+.small-one{
+    display: none;
+    width: 20%;
+    height: 6%;
+    background: #fbcf00;
+    position: relative;
+    bottom: 101%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.one-h2{
+    display: none;
+    color: white;
+    font-size: 0.8rem;
+    width: 80%;
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+.date-one{
+    display: none;
+    /* display: flex; */
+    position: relative;
+    left: 10%;
+    bottom: 23%;
+}
+.one-edd{
+    display: none;
+   /* display: flex; */
+   margin-right: 2%;
+   font-size: 0.6rem; 
+   color: #bfbfbf;
+
+}
+.one-nokta{
+    display: none;
+    /* display: flex; */
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.one-date{
+    display: none;
+    /* display: flex; */
+   font-size: 0.6rem; 
+   color: #bfbfbf;
+}
+
+/*two HEADER IKINCI SAGDAKI SEKIL*/
+
+.two img{
+    float: right;
+    width: 40vw;
+    height: 15vh;
+    z-index: 2;
+}
+.small-two{
+    display: none;
+    background: #f70c0c;
+    width: 20%;
+    height: 12%;
+    position: relative;
+    left: 1%;
+    z-index: 1;
+}
+.small-two p{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    color: white;
+    position: relative;
+    left: 48%;
+    top: 10%;
+}
+.two-h2{
+    display: none;
+    color: white;
+    font-size: 0.8rem;
+    width: 80%;
+    height: 20%;
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+
+/*three SAG ASAGIDAKI SOLDAN BIRINCI SEKIL*/
+
+.three{
+    display: flex; 
+    flex-direction: column;
+    align-content: flex-end;
+}
+.three a{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 8.5vh;
+}
+.three img{
+    width: 19vw;
+    height: 14vh;
+    display: flex;
+}
+.small-three{
+    display: none;
+    background: #f900fb;
+    width: 25%;
+    height: 3vh;
+    position: relative;
+    bottom: 80.75%;
+    left: 2%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.three-h2{
+    display: none;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+    font-size: 0.7rem;
+}
+
+
+/*four SAG ASAGIDAN IKINCI SEKIL*/
+
+#four{
+    display: flex;
+    align-content: flex-end; 
+    flex-direction: column;
+    
+}
+#four a{
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+    top: 8.5vh;
+}
+#four img{
+    width: 19vw;
+    height: 14vh;
+    display: flex;
+    align-self: flex-end;
+}
+
+.small-four{
+    display: none;
+    width: 30%;
+    height: 3vh;
+    /* display: flex; */
+    justify-content: center;
+    position: relative;
+    left: 2.2%;
+    top: 1.2%;
+    z-index: 2;
+    background: #1800fb;
+    color: white;
+
+
+}
+
+.four-h2{
+    display: none;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+    font-size: 0.7rem;
+}
+
+/*reklam-1 720*90 PX DIV*/
+
+.reklam-1{
+    width: 50vw;
+    height: 10vh;
+    background: #bfbfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
+.reklam-1 img{
+    width: 50vw;
+    height: 10vh;
+}
+
+/*hr mor RENGLI HR */ 
+
+.mor{
+    width: 85vw;
+    height: 0.4vh;
+    margin-left: 7.5vw;
+    margin-top: 5vh;
+    background: #7a0fe7;
+    border: none;
+}
+.hr-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    left: 7.5vw;
+    bottom: 1.2vh;
+    background: #0cdef7;
+
+}
+.hr-div p{
+    color: white;
+}
+
+/*big-container HR ETIKETININ ALTINDAKI BOYUK DIV*/
+
+.big-container{
+    display: flex;
+    width: 85vw;
+    height: 50vh;
+    position: relative;
+    left: 7.25vw;
+    top: 5vh;
+    justify-content: center;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+}
+/*container-2 BOYUK DIVDE SOLDAKI BOYUK DIV*/
+
+.container-2{
+    width: 80vw;
+    height: 50vh;
+    margin-right: 5vw;
+    display: flex;
+}
+
+/* CONTAINER 2 DIVININ ICINDEKILER */
+
+.item-1{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height:30vh;
+    margin-right: 1vw;
+}
+.item-1 img{
+    width: 40vw;
+    height: 30vh;
+}
+.item-1 a{
+    width: 40vw;
+    height: 30vh;
+}
+.item-1 p{
+    display: none;
+    position: relative;
+    bottom: 15%;
+    left: 5%;
+}
+.item-2{
+    width: 40vw;
+    height: 30vh;
+    margin-left: 1vw;
+}
+
+.item-2 a{
+    width: 40vw;
+    height: 30vw;
+}
+.img-1{
+    width: 40vw;
+    height: 9vh;
+    margin-bottom: 1.5vh;
+}
+.img-1 img{
+    width: 16vw;
+    height: 9vh;
+}
+.img-2{
+    width: 40vw;
+    height: 9vh;
+}
+.img-2 img{
+    width: 16vw;
+    height: 9vh;
+}
+.img-3{
+    width: 40vw;
+    height: 9vh;
+    margin-top: 1.5vh;
+}
+.img-3 img{
+    width: 16vw;
+    height: 9vh;
+}
+.item-2 p{
+    width: 20vw;
+    position: relative;
+    bottom: 9vh;
+    left: 18vw;
+    font-size: 0.6rem;
+}
+
+
+/*rightsidebar BOYUK DIVIN ICINDE SOLDAKI REKLAM DIVIN VALIDEYNI*/
+
+.rightsidebar{
+    display: none;
+    width: 24.5vw;
+    height: 120vh;
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+/* SOLDAKI 336*280 REKLAM DIVI */
+
+.reklam2{
+    width: 22vw;
+    height: 20vh;
+    position: relative;
+    top: 2.5vh;
+    margin-right: 2vw;
+}
+/* SOLDAKI 336*280 REKLAM DIVININ FIXED OZELLIYI */
+.sabitreklam{
+    position: fixed;
+    top: 25vh;
+    left: 68vw;
+}
+
+
+/*hr yellow*/ 
+
+.yellow{
+    width: 60vw;
+    height: 0.4vh;
+    background: #f4b800;
+    position: relative;
+    top: 5vh;
+    border: none;
+}
+
+/*sondivler*/ 
+
+.container-3{
+    width: 55vw;
+    height: 100vh;
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* sondiv 1*/
+
+.sondiv-1{
+    width: 55vw;
+    height: 25vh;
+    margin-bottom: 2vh;
+}
+.sondiv-1 img{
+    width: 55vw;
+    height: 25vh;
+}
+.sondiv-1 h3{
+    display: none;
+    position: relative;
+    bottom: 85%;
+    left: 45%;
+    font-size: 1.5rem;
+}
+.aciq-metn{
+    display: none;
+    position: relative;
+    bottom: 80%;
+    left: 45%;
+}
+.tarix{
+    display: none;
+    width: 10vw;
+    position: relative;
+    left: 85%;
+    bottom: 76%;
+
+}
+
+/* sondiv 2*/
+
+.sondiv-2{
+    width: 55vw;
+    height: 25vh;
+}
+.sondiv-2 img{
+    width: 55vw;
+    height: 25vh;
+}
+.sondiv-2 h3{
+    display: none;
+    position: relative;
+    bottom: 85%;
+    left: 45%;
+    font-size: 1.5rem;
+}
+.aciq-metn{
+    display: none;
+    position: relative;
+    bottom: 80%;
+    left: 45%;
+}
+
+/* sondiv 3*/
+
+.sondiv-3{
+    width: 55vw;
+    height: 25vh;
+    margin-top: 2vh;
+}
+.sondiv-3 img{
+    width: 55vw;
+    height: 25vh;
+}
+.sondiv-3 h3{
+    display: none;
+    position: relative;
+    bottom: 85%;
+    left: 45%;
+    font-size: 1.5rem;
+}
+.aciq-metn{
+    display: none;
+    position: relative;
+    bottom: 80%;
+    left: 45%;
+}
+
+
+/*footer*/
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    top: 115vh;
+    background: #f8f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+@media only screen and (min-width: 425px){ 
+    .menu a{
+        font-size: 1rem;
+    }
+    .big-container{
+        display: flex;
+        width: 90vw;
+        height: 50vh;
+        position: relative;
+        left: 8vw;
+        top: 5vh;
+        justify-content: center;
+    }
+    .item-2 p{
+        font-size: 0.8rem;
+    }
+    
+    .container-3{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        position: relative;
+        left: 9vw;
+    }
+
+    .sondiv-1{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-1 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-1 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+    .aciq-metn{
+        display: flex; 
+        width: 30vw;
+        font-size: 0.7rem;
+        position: relative;
+        left: 50vh;
+    }
+    .tarix{
+        display: flex;
+        width: 15vw;
+        font-size: 0.7rem;
+        position: relative;
+        left: 56.5vw;
+        bottom: 16vh;
+    
+    }
+    .sondiv-2{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-2 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-2 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+    .sondiv-3{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-3 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-3 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .menu a{
+        font-size: 1rem;
+    }
+    .container-1{
+        height: 40vh;
+    }
+    .rightcol{
+        height: 20vh;
+    }
+    .bottomcol{
+        height: 20vh;
+    }
+    
+    /*BIRINCI SOL SEKIL*/
+    
+    .one-img{
+        width: 40vw;
+        height: 40vh;
+    }
+    .two img{
+        height: 20vh;
+    }
+    .three img{
+        width: 19.5vw;
+        height: 19vh;
+    }
+    #four img{
+        width: 19.5vw;
+        height: 19vh;
+    }
+    .three a{
+        top: 11vh;
+    }
+    #four a{
+        top: 11vh;
+    }
+    
+    .big-container{
+        display: flex;
+        width: 90vw;
+        height: 50vh;
+        position: relative;
+        left: 8vw;
+        top: 5vh;
+        justify-content: center;
+    }
+    
+    .item-1{
+        height:40vh;
+    }
+    .item-1 img{
+        height: 40vh;
+    }
+    .item-1 a{
+        height: 40vh;
+    }
+    .item-2{
+        height: 40vh;
+    }
+    
+    .item-2 a{
+        height: 40vw;
+    }
+    .img-1{
+        height: 12vh;
+    }
+    .img-1 img{
+        height: 12vh;
+    }
+    .img-2{
+        height: 12vh;
+    }
+    .img-2 img{
+        height: 12vh;
+    }
+    .img-3{
+        height: 12vh;
+        margin-top: 1.5vh;
+    }
+    .img-3 img{
+        height: 13vh;
+    }
+    .item-2 p{
+        font-size: 1rem;
+    }
+    
+    .container-3{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        position: relative;
+        left: 15vw;
+    }
+
+    .sondiv-1{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-1 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-1 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+    .aciq-metn{
+        display: flex; 
+        width: 30vw;
+        font-size: 0.7rem;
+        position: relative;
+        left: 66vh;
+    }
+    .tarix{
+        display: flex;
+        width: 15vw;
+        font-size: 0.7rem;
+        position: relative;
+        left: 44vw;
+        bottom: 16vh;
+    
+    }
+    .sondiv-2{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-2 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-2 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+    .sondiv-3{
+        width: 70vw;
+        height: 25vh;
+        margin-bottom: 2vh;
+    }
+    .sondiv-3 img{
+        width: 30vw;
+        height: 25vh;
+    }
+    .sondiv-3 h3{
+        display: flex;
+        width: 33vw;
+        position: relative;
+        bottom: 22vh;
+        left: 32vw;
+        font-size: 0.9rem;
+    }
+    .footer{
+        top: 130vh;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    /* NAVBAR-LOGO, MENU, SOCIAL ICONS BOLMESI */
+
+    .navbar{
+        justify-content: space-around;
+    }
+    
+    /* LOGO BOLMESI */
+    
+    #logo img{
+        width: 15vw;
+    }
+    .logo{
+        width: 15vw;
+        margin-left: 3vw;
+    }
+    /* MENU BOLMESI */
+    .menu{
+        width: 40vw;
+        justify-content: center;
+
+    } 
+    /* MENU LI ICINDEKI A ELEMENTLERI */
+
+    .menu a{
+        font-size: 1rem;
+        width: 10vw;
+        justify-content: center;
+    }
+
+    /* NAVBAR SOCIAL ICONLAR  */
+    .icons{
+        display: flex;
+        align-items: center;
+        margin-right: 7.2vw;
+        width: 11vw;
+    }
+    .icons li{
+        list-style: none;
+        margin-left: 1vh;
+
+    }
+    .icons img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    /*Container-1 HEADER BOLMESI*/
+
+    .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85vw;
+        height: 70vh;
+        margin-left: 7.5vw;
+        margin-top: 6vh;
+    }
+    .rightcol{
+        display: flex;
+        flex-direction: column;
+        width: 42.5vw;
+        height: 70vh;
+  }
+    .bottomcol{
+        display: flex;
+        width: 42.5vw;
+        height: 34vh;
+    }
+
+    /*BIRINCI SOL SEKIL*/
+
+    .one-img{
+        width: 42.5vw;
+        height: 70vh;
+    }
+    .small-one{
+        width: 8.5vw;
+        height: 4.2vh;
+        bottom: 70.6vh;
+        display: flex;
+    }
+    .one-h2{
+        display: flex;
+        width: 34vw;
+        position: relative;
+        bottom: 17.5vh;
+        left: 4.25vw;
+    }
+    .date-one{
+        display: flex;
+        position: relative;
+        left: 4.25vw;
+        bottom: 16.1vh;
+    }
+    .one-edd{
+        display: flex;
+        margin-right: 0.85vw;
+        font-size: 0.6rem; 
+
+    }
+    .one-nokta{
+        display: flex;
+        width: 0.2rem;
+        height: 0.2rem;
+        margin-right: 0.85vw;
+        margin-top: 0.7vh;
+    }
+    .one-date{
+        display: flex;
+        font-size: 0.6rem; 
+    }
+
+    /*two HEADER IKINCI SAGDAKI SEKIL*/
+
+    .two img{
+        float: right;
+        width: 42vw;
+        height: 34vh;
+        z-index: 2;
+    }
+    .small-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4vw;
+        height: 4.08vh;
+        left: 0.45vw;
+        bottom: 34vh;
+        z-index: 1;
+    }
+    .small-two p{
+        display: flex;
+        color: white;
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+    }
+    .two-h2{
+        display: flex;
+        font-size: 0.8rem;
+        width: 34vw;
+        height: 6.8vh;
+        position: relative;
+        bottom: 12vh;
+        left: 4vw;
+    }
+
+    /*three SAG ASAGIDAKI SOLDAN BIRINCI SEKIL*/
+
+    .three{
+        display: flex; 
+        flex-direction: column;
+        align-content: flex-end;
+    }
+    .three a{
+        height: 35vh;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 0vh;
+        left: 0.25vw;
+    }
+    .three img{
+        width: 20.75vw;
+        height: 35vh;
+        display: flex;
+        align-self: flex-end;
+    }
+    .small-three{
+        width: 5.25vw;
+        height: 3vh;
+        bottom: 35vh;
+        left: 0.7vw;
+        display: flex;
+    }
+    .three-h2{
+        display: flex;
+        position: relative;
+        bottom: 10vh;
+        left: 3vw;
+        color: white;
+        font-size: 0.7rem;
+    }
+
+
+    /*four SAG ASAGIDAN IKINCI SEKIL*/
+
+    #four{
+        display: flex;
+        align-content: flex-end; 
+        flex-direction: column;
+        
+    }
+    #four a{
+        display: flex;
+        justify-content: flex-end; 
+        position: relative;
+        top: 0vh;
+    }
+    #four img{
+        width: 20.75vw;
+        height: 35vh;
+        display: flex;
+        align-self: flex-end;
+        position: relative;
+        bottom: 2.75vh;
+    }
+    .small-four{
+        width: 6.2vw;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0.5vw;
+        top: 0vh;
+        z-index: 2;
+        background: #1800fb;
+        color: white;
+
+
+    }
+
+    .four-h2{
+        display: flex;
+        position: relative;
+        bottom: 10vh;
+        left: 3vw;
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    /*reklam-1 720*90 PX DIV*/
+
+    .reklam-1{
+        width: 50vw;
+        height: 10vh;
+        background: #bfbfbf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: 25vw;
+    }
+    .reklam-1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*hr mor RENGLI HR */ 
+
+    .mor{
+        width: 85vw;
+        height: 0.3vh;
+        margin-left: 7.5vw;
+        margin-top: 5vh;
+        background: #7a0fe7;
+    }
+    .hr-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 5vh;
+        position: relative;
+        left: 7.5vw;
+        bottom: 1vh;
+        background: #0cdef7;
+
+    }
+
+    /*big-container HR ETIKETININ ALTINDAKI BOYUK DIV*/
+
+    .big-container{
+        display: flex;
+        width: 85vw;
+        height: 100rem;
+        position: relative;
+        left: 7.25vw;
+        top: 5vh;
+        justify-content: center;
+    }
+
+    .pro{
+        display: flex;
+        flex-direction: column;
+    }
+    /*container-2 BOYUK DIVDE SOLDAKI BOYUK DIV*/
+
+    .container-2{
+        width: 55vw;
+        height: 50vh;
+        margin-right: 5vw;
+        display: flex;
+    }
+
+    /* CONTAINER 2 DIVININ ICINDEKILER */
+
+    .item-1{
+        display: flex;
+        flex-direction: column;
+        width: 27vw;
+        height: 50vh;
+        margin-right: 0.55vw;
+    }
+    .item-1 img{
+        width: 27vw;
+        height: 50vh;
+    }
+    .item-1 a{
+        width: 27vw;
+        height: 50vh;
+    }
+    .item-1 p{
+        display: flex;
+        position: relative;
+        bottom: 7.5vh;
+        left: 1.35vw;
+    }
+    .item-2{
+        width: 27vw;
+        height: 50vh;
+        margin-left: 0.55vw;
+    }
+
+    .item-2 a{
+        width: 27vw;
+        height: 50vh;
+    }
+    .img-1{
+        width: 27vw;
+        height: 16vh;
+        margin-bottom: 1vh;
+    }
+    .img-1 img{
+        width: 10.8vw;
+        height: 16vh;
+    }
+    .img-2{
+        width: 27vw;
+        height: 16vh;
+    }
+    .img-2 img{
+        width: 10.8vw;
+        height: 16vh;
+    }
+    .img-3{
+        width: 27vw;
+        height: 16vh;
+        margin-top: 2%;
+    }
+    .img-3 img{
+        width: 10.8vw;
+        height: 16vh;
+    }
+    .item-2 p{
+        position: relative;
+        bottom: 12.8vh;
+        left: 12.5vw;
+        font-size: 0.8rem;
+    }
+
+
+    /*rightsidebar BOYUK DIVIN ICINDE SOLDAKI REKLAM DIVIN VALIDEYNI*/
+
+    .rightsidebar{
+        display: flex;
+    }
+
+    /*sondivler*/ 
+
+    .container-3{
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+        height: 100vh;
+        position: relative;
+        top: 15vh;
+        left: 0vw;
+    }
+
+    /* sondiv 1*/
+
+    .sondiv-1{
+        width: 55vw;
+        height: 30vh;
+        margin-bottom: 5vh;
+    }
+    .sondiv-1 img{
+        width: 22vw;
+        height: 30vh;
+    }
+    .sondiv-1 h3{
+        position: relative;
+        bottom: 25.5vh;
+        left: 24.75vw;
+        font-size: 1.5rem;
+    }
+    .aciq-metn{
+        position: relative;
+        bottom: 24vh;
+        left: 24.75vw;
+    }
+    .tarix{
+        width: 10vw;
+        position: relative;
+        left: 46.75vw;
+        bottom: 22.8vh;
+
+    }
+
+    /* sondiv 2*/
+
+    .sondiv-2{
+        width: 55vw;
+        height: 30vh;
+    }
+    .sondiv-2 img{
+        width: 22vw;
+        height: 30vh;
+    }
+    .sondiv-2 h3{
+        position: relative;
+        bottom: 25.5vh;
+        left: 24.75vw;
+        font-size: 1.5rem;
+    }
+    .aciq-metn{
+        position: relative;
+        bottom: 24vh;
+        left: 24.75vw;
+    }
+
+    /* sondiv 3*/
+
+    .sondiv-3{
+        width: 55vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .sondiv-3 img{
+        width: 22vw;
+        height: 30vh;
+    }
+    .sondiv-3 h3{
+        position: relative;
+        bottom: 25.5vh;
+        left: 24.75vw;
+        font-size: 1.5rem;
+    }
+    .aciq-metn{
+        position: relative;
+        bottom: 24vh;
+        left: 24.75vw;
+    }
+
+
+    /*footer*/
+
+    .footer{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 5vh;
+        background: #f8f7f7;
+    }
+}
