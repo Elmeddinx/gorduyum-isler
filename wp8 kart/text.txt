@@ -1,0 +1,26 @@
+lazim olanlar
+
+1. random sayilar 1-8 qeder +
+2. hemin sayilarin aid oldugu kartin id sini tapmasi
+3. hemin id lerin setinterval hesabina belli vaxtlarla donmesi
+ //RAstgele sayi 
+
+var ornek = function(min, max) {
+    Math.floor(Math.random() * (10 - 1)) + 1;
+}
+ornek();
+
+
+js il hover efffektinin eynisin animasiya ile duzelt
+sonra ise interval ile bu animasiyaya vaxt qoy oz ozluyunde islesin
+if(navigator.userAgent.match("Chrome")){
+        elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+    } else if(navigator.userAgent.match("Firefox")){
+        elem.style.MozTransform = "rotate("+degrees+"deg)";
+    } else if(navigator.userAgent.match("MSIE")){
+        elem.style.msTransform = "rotate("+degrees+"deg)";
+    } else if(navigator.userAgent.match("Opera")){
+        elem.style.OTransform = "rotate("+degrees+"deg)";
+    } else {
+        elem.style.transform = "rotate("+degrees+"deg)";
+    } 
