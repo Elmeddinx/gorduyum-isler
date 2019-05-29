@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Hamburger Menu</title>
+</head>
+<body>
+    <div class="aside">
+        <div class="trigger">
+            <br><br>
+            <img src="/menu.svg" alt="">
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Codepen</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title">
+        <h1>RESPONSIVE <span>DESIGN</span></h1>
+    </div>
+    <div class="content">
+        <div class="about">
+            <h1 class="sitename">WEBSITE DESIGNING</h1>
+            <ul class="desc">
+                <li>- Grid Layout</li>
+                <li>- Gradient Text And Borders</li>
+                <li>- Custom Pictures</li>
+                <li>- Rotated Text & Titles</li>
+                <li>- Animated Hamburger (Open/Close Menu Trigger)</li>
+                <li>- Smooth Animation And Tricks On The Cubic-Bezier</li>
+                <li>- Unusual Fonts</li>
+            </ul>
+            <button><span>Read more</span></button>
+        </div>
+        <div class="concept">
+            <h2>Trending Design in</h2>
+            <p class="num">2019</p>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>Web Designing</li>
+            <li>Web Development</li>
+            <li>Responsivness</li>
+            <li>Frontend</li>
+            <li>Supports</li>
+        </ul>
+    </div>
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script> 
+    $('.trigger').click(function(){
+        $('.menu').toggleClass('open') 
+        $('.menu').toggleClass('hidden')
+    });
+  </script>
+</body>
+</html>
